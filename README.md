@@ -8,7 +8,7 @@ Based on ID number, you can extract the information of the listing including but
 **Sample Output:**\
 {
   "_id": "10306879",\
-  "listing_url": "https://www.airbnb.com/rooms/10306879"\
+  "listing_url": "https://www.airbnb.com/rooms/10306879" 
   "name": "Alugo Apart frente mar Barra Tijuca",\
   "property_type": "Apartment",\
   "bedrooms": 1,\
