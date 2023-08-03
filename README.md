@@ -14,25 +14,24 @@ Based on ID number, you can extract the information of the listing including but
   "bedrooms": 1,\
   "bathrooms": "Decimal128('1.0')",\
   "amenities": [
-    "TV",
-    "Wifi",
-    "Air conditioning",
-    "Pool",
-    "Kitchen",
-    "Free parking on premises",
-    "Pets allowed",
-    "Doorman",
-    "Gym",
-    "Elevator",
-    "Hot tub",
-    "Buzzer/wireless intercom",
-    "Family/kid friendly",
-    "Washer",
-    "Dryer",
-    "Hangers",
-    "Iron",
-    "Laptop friendly workspace"
-  ],\
+    "TV",\
+    "Wifi",\
+    "Air conditioning",\
+    "Pool",\
+    "Kitchen",\
+    "Free parking on premises",\
+    "Pets allowed",\
+    "Doorman",\
+    "Gym",\
+    "Elevator",\
+    "Hot tub",\
+    "Buzzer/wireless intercom",\
+    "Family/kid friendly",\
+    "Washer",\
+    "Dryer",\
+    "Hangers",\
+    "Iron",\
+    "Laptop friendly workspace",\
   "price": "Decimal128('933.00')"\
 }
 
