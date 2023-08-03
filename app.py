@@ -14,15 +14,16 @@ def query(id_number):
     query = {"_id": id_number}
     
     projection = {
-        "_id": 1,               # Exclude the MongoDB default "_id" field
-        "name": 1,              # Include the "name" field
-        "property_type": 1,     # Include the "property_type" field
-        "price": 1,             # Include the "price" field
-        "bedrooms": 1,          # Include the "bedrooms" field
-        "bathrooms": 1,         # Include the "bathrooms" field
-        "amenities": 1,         # Include the "amenities" field
+        "_id": 1,               
+        "name": 1,              
+        "property_type": 1,    
+        "price": 1, 
+        "listing_url":1,
+        "bedrooms": 1,          
+        "bathrooms": 1,         
+        "amenities": 1,         
     }
-    # results = collection.find({"some_key": "some_value"})
+    
     data = list(collection.find(query, projection))
     return data
 
